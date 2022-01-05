@@ -48,5 +48,4 @@ python main.py --train False --test False --transfer_attack True --dataset WIKI 
 ```
 
 ## Citation
-If you find this code useful, please cite our paper:<br>
 Coming soon...
