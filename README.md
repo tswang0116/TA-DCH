@@ -12,9 +12,9 @@ Source code for the paper "Targeted Adversarial Attack for Deep Cross-modal Hash
 ## Datasets
 We used five cross-modal datasets for experiments. Since IAPR-TC12 and MS-COCO do not have common text features, we use the pre-trained BERT model to extract 1024-dimension text features. All datasets are available by the following link:
 
-* WIKIPEDIA:
-* IAPR-TC12:
-* FLICKR-25K:
+* WIKIPEDIA: https://pan.baidu.com/s/1YWMLqL56TakLfcEIjIDf4g <br> Password: 3475
+* IAPR-TC12: https://pan.baidu.com/s/1YjItEeUmYj2_oPQeToV_Sw <br> Password: dx2s
+* FLICKR-25K: https://pan.baidu.com/s/1Ie9PDqC9mAmBdxqX0KJ0ng <br> Password: yjkd
 * MS-COCO:
 * NUS-WIDE:
 
