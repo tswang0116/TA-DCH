@@ -19,7 +19,7 @@ We used five cross-modal datasets for experiments. Since IAPR-TC12 and MS-COCO d
 * NUS-WIDE:
 
 ## Train attacked hashing models
-We carry out targeted adversarial attack for six cross-modal hashing methods, including three supervised methods (DCMH, CPAH, DADH) and three unsupervised methods (DJSRH, JDSH, DGCPN). All attacked hashing models can be obtained by the following code:
+We carry out targeted adversarial attack for six cross-modal hashing methods, including three supervised methods (DCMH, CPAH, DADH) and three unsupervised methods (DJSRH, JDSH, DGCPN). All attacked hashing models can be obtained by the following link:
 
 * Deep Cross-Modal Hashing (DCMH): https://github.com/WendellGul/DCMH
 * Consistency-Preserving Adversarial Hashing (CPAH): https://github.com/comrados/cpah
@@ -47,8 +47,9 @@ The transferable attack performance can be tested directly by using trained targ
 python main.py --train False --test False --transfer_attack True --dataset WIKI --method DCMH --bit 16 --transfer_attacked_method DADH --transfer_bit 32
 ```
 
-## An example of an attack model for 32-bit DGCPN on WIKEPEDIA
-We provide an example here. We use the proposed DCHTA to attack the 32-bit DGCPN on the WIKIPEDIA dataset. You need to put `DGCPN.pth` in `./attacked_models/DGCPN_WIKI_32/DGCPN.pth`.
+## An attack example for 32-bit DGCPN on WIKEPEDIA
+We provide an example here. We use the proposed DCHTA to attack the 32-bit DGCPN on the WIKIPEDIA dataset. You need to put the hashing model `DGCPN.pth` in a path like `./attacked_models/DGCPN_WIKI_32/DGCPN.pth`. The hashing model `DGCPN.pth` can be obtained by the following link:
+* 32-bit DGCPN on WIKIPEDIA: https://pan.baidu.com/s/1yKjsF2KPL8bz9jCoBZBgKw <br> Password: beok
 
 ## Citation
 Coming soon...
