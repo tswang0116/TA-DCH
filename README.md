@@ -47,5 +47,8 @@ The transferable attack performance can be tested directly by using trained targ
 python main.py --train False --test False --transfer_attack True --dataset WIKI --method DCMH --bit 16 --transfer_attacked_method DADH --transfer_bit 32
 ```
 
+## An example of an attack model for 32-bit DGCPN on WIKEPEDIA
+We provide an example here. We use the proposed DCHTA to attack the 32-bit DGCPN on the WIKIPEDIA dataset. You need to put `DGCPN.pth` in `./attacked_models/DGCPN_WIKI_32/DGCPN.pth`.
+
 ## Citation
 Coming soon...
