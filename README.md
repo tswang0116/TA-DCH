@@ -49,7 +49,10 @@ python main.py --train False --test False --transfer_attack True --dataset WIKI 
 
 ## An attack example for 32-bit DGCPN on WIKEPEDIA
 We provide an example here. We use the proposed DCHTA to attack the 32-bit DGCPN on the WIKIPEDIA dataset. You need to put the hashing model `DGCPN.pth` in a path like `./attacked_models/DGCPN_WIKI_32/DGCPN.pth`. The hashing model `DGCPN.pth` can be obtained by the following link:
-* 32-bit DGCPN on WIKIPEDIA: https://pan.baidu.com/s/1yKjsF2KPL8bz9jCoBZBgKw <br> Password: beok
+* 32-bit DGCPN on WIKIPEDIA: https://pan.baidu.com/s/1bX7-lmpR01VerYs8JmvREQ <br> Password: xaa1
+
+Alternatively, you can use the trained attack model for testing. The trained attack model for 32-bit DGCPN on WIKIPEDIA can be obtained by the following link:
+* The trained attack model: https://pan.baidu.com/s/11-tImjfgQKwzpywPnb9LOg <br> Password: f56x
 
 ## Citation
 Coming soon...
