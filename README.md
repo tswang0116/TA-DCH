@@ -31,7 +31,7 @@ We carry out targeted adversarial attack for six cross-modal hashing methods, in
 ## Train targeted attack model
 The attack model can be trained by running `main.py`. Here is a training example:
 ```shell
-python main.py --dataset WIKI --method DGCPN --bit 32 --batch_size 24 --learning_rate 1e-4 --n_epochs 50 --n_epochs_decay 100 --train --test
+python main.py --train --test --dataset WIKI --method DGCPN --bit 32 --batch_size 24 --learning_rate 1e-4 --n_epochs 50 --n_epochs_decay 100
 ```
 The above command indicates that 32-bit DGCPN is attacked on WIKIPEDIA. During the training, the initial learning rate is set to 0.0001, the normal iteration and the iteration with decay are set to 50 and 100 respectively.
 
