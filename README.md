@@ -35,6 +35,8 @@ python main.py --dataset WIKI --method DGCPN --bit 32 --batch_size 24 --learning
 ```
 The above command indicates that 32-bit DGCPN is attacked on WIKIPEDIA. During the training, the initial learning rate is set to 0.0001, the normal iteration and the iteration with decay are set to 50 and 100 respectively.
 
+Noted that the weight of the image reconstruction loss needs to be adjusted when attacking different hashing models.
+
 ## Test targeted attack performance
 Test commands are similar to training commands. To test the attack performance for the 32-bit DGCPN on WIKIPEDIA, run the following command:
 ```shell
