@@ -31,7 +31,7 @@ We carry out targeted adversarial attack for six cross-modal hashing methods, in
 ## Train targeted attack model
 The attack model can be trained by running `main.py`. Here is a training example:
 ```shell
-python main.py --dataset WIKI --method DGCPN --bit 32 --batch_size 24 --learning_rate 1e-4 --n_epochs 50 --n_epochs_decay 100
+python main.py --dataset WIKI --method DGCPN --bit 32 --batch_size 24 --learning_rate 1e-4 --n_epochs 50 --n_epochs_decay 100 --train --test
 ```
 The above command indicates that 32-bit DGCPN is attacked on WIKIPEDIA. During the training, the initial learning rate is set to 0.0001, the normal iteration and the iteration with decay are set to 50 and 100 respectively.
 
@@ -40,13 +40,13 @@ Noted that the weight of the image reconstruction loss needs to be adjusted when
 ## Test targeted attack performance
 Test commands are similar to training commands. To test the attack performance for the 32-bit DGCPN on WIKIPEDIA, run the following command:
 ```shell
-python main.py --train False --test True --dataset WIKI --method DGCPN --bit 32
+python main.py --test --dataset WIKI --method DGCPN --bit 32
 ```
 
 ## Test transferable attack performance
 The transferable attack performance can be tested directly by using trained targeted attack model. To test the transferable attack performance of the 32-bit DGCPN attack model for 128-bit DADH, use the following command:
 ```shell
-python main.py --train False --test False --transfer_attack True --dataset WIKI --method DGCPN --bit 32 --transfer_attacked_method DADH --transfer_bit 128
+python main.py --train --test --transfer_attack --dataset WIKI --method DGCPN --bit 32 --transfer_attacked_method DADH --transfer_bit 128
 ```
 
 ## An attack example for 32-bit DGCPN on WIKEPEDIA
