@@ -15,8 +15,8 @@ We used five cross-modal datasets for experiments. Since IAPR-TC12 and MS-COCO d
 * WIKIPEDIA: https://pan.baidu.com/s/1YWMLqL56TakLfcEIjIDf4g <br> Password: 3475
 * IAPR-TC12: https://pan.baidu.com/s/1YjItEeUmYj2_oPQeToV_Sw <br> Password: dx2s
 * FLICKR-25K: https://pan.baidu.com/s/1Ie9PDqC9mAmBdxqX0KJ0ng <br> Password: yjkd
-* MS-COCO:
-* NUS-WIDE:
+* MS-COCO: https://pan.baidu.com/s/1ocZTVx1GFFdceoSYbIWkbQ <br> Password: 2a6l
+* NUS-WIDE: https://pan.baidu.com/s/1Yvqt4Bdjsq1gPaJn2IqIEw <br> Password: doi1
 
 ## Train attacked hashing models
 We carry out targeted adversarial attack for six cross-modal hashing methods, including three supervised methods (DCMH, CPAH, DADH) and three unsupervised methods (DJSRH, JDSH, DGCPN). All attacked hashing models can be obtained by the following link:
