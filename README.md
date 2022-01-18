@@ -1,4 +1,4 @@
-# DCHTA
+# TA-DCH
 Source code for the paper "Targeted Adversarial Attack for Deep Cross-modal Hashing Retrieval".
 
 ## Requirements
