@@ -91,7 +91,9 @@ class DCHTA(nn.Module):
         lr_steps = epochs * steps
         scheduler_a = torch.optim.lr_scheduler.MultiStepLR(optimizer_a, milestones=[lr_steps / 2, lr_steps * 3 / 4], gamma=0.1)
         criterion_l2 = torch.nn.MSELoss()
+        # Depends on the attacked model
         B = self.attacked_model.generate_image_hashcode(train_images).cuda()
+        # B = self.attacked_model.generate_text_hashcode(train_texts).cuda()
         for epoch in range(epochs):
             index = np.random.permutation(num_train)
             for i in range(steps):
